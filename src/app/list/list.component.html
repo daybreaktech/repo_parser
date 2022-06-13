@@ -1,0 +1,16 @@
+<div style="margin-top: 10px;">
+    <table class="repo-table">
+        <thead>
+            <th>Repository Name</th>
+            <th>Rate/Stars</th>
+            <th>Forks</th>
+        </thead>
+        <tbody>
+            <tr *ngFor="let obj of data.items">
+                <td>{{ obj.name }}</td>
+                <td>{{ obj.forks_count }}</td>
+                <td>{{ obj.stargazers_count }}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

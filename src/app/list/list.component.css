@@ -1,0 +1,10 @@
+.repo-table {
+    border: 1px black solid;
+}
+
+.repo-table th, td {
+    text-align: left;
+    border: 1px black solid;
+    padding: 5px;
+}
+

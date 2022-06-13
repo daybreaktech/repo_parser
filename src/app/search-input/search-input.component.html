@@ -1,0 +1,5 @@
+<div>
+    <label for="username">Github Username: </label>
+    <input type="text" name="username" placeholder="Github username here.." [(ngModel)]="username" (input)="searchValueOnChange($event)"/>    
+    <input type="button" [disabled]="buttonDisabled" (click)="onThisSearchButtonClicked()" value="Find"/>
+</div>
